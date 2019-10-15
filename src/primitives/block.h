@@ -26,7 +26,7 @@ public:
     uint256 hashMerkleRoot;
     uint32_t nTime;
     uint32_t nBits;
-    uint32_t nNonce;
+    uint64_t nNonce;
 
     CBlockHeader()
     {
